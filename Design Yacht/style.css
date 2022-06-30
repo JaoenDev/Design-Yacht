@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: block;
+    justify-content: space-between;
+    padding: 15px;
+}
+.logo {
+    background: url(./assets/logo.png);
+    width: 275px;
+    height: 183px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 25px;
+    font-size: 1.6rem;
+    background: grey;
+    color: white;
+}
+h1 {
+    position: absolute;
+    z-index: 1;
+    left: 45%;
+    text-transform: uppercase;
+}
+.photo-intro {
+    background: url(./assets/kaos.webp) ;
+    width: 1200px;
+    height: 522px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+.projets {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+}
+.projet {
+    background: url(./assets/projets.jpeg) no-repeat;
+    width: 316px;
+    height: 159px;
+}
+
