@@ -55,4 +55,40 @@ h1 {
     width: 316px;
     height: 159px;
 }
+.constructions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+}
+.construction {
+    background: url(./assets/construction.jpeg) no-repeat;
+    width: 316px;
+    height: 159px;
+}
+.navires {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+}
+.navire {
+    background: url(./assets/navire.jpeg) no-repeat;
+    width: 316px;
+    height: 159px;
+}
+h2{
+    font-size: 1.4rem;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+}
 
